@@ -4,11 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * 
- * @author Sindhu VL
- *
- */
 public final class MultiUtil {
 	public static MultiUtil multiUtil = new MultiUtil();
 private MultiUtil() {
@@ -26,7 +21,6 @@ public static  Map<String, Integer> getUserAttemptsLeft() {
 	return userAttemptsLeft;
 }
 
-//Generating the secret number
 public static int getSecretNumber() {
 	Random random = new Random();
 	return random.nextInt(10 - 1 + 1) + 1;

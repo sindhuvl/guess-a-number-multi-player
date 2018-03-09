@@ -12,8 +12,6 @@ import com.game.util.MultiUtil;
 
 /**
  * Servlet implementation class InitiateServlet
- * This servlet is used to create user information for all the users 
- * It will set the secret number and generate the uuid for each user
  */
 public class InitiateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -20,9 +20,9 @@ public class GuessGameUtil {
 		case 1:
 			return " (hot) ";
 		case 2:
-			return " (cold) ";
-		default:
 			return " (warm) ";
+		default:
+			return " (cold) ";
 		}
 
 	}
